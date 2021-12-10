@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Promedio
+        </h1>
+    </header>
+
+    <section>
+        <form action="">
+            <label for="lista-Numeros">Ingresa los números a calcular el
+                promedio, se iran agregando a la lista.</label>
+            <input type="number" id="lista-Numeros">
+            <button type="reset" onclick="enviarNumero()">Enviar número a la
+                lista</button>
+            <p id="mostrarLista"></p> <br>
+            <button type="button" onclick="calcularPromedio1()">Calcular
+                promedio</button>
+        </form>
+        <h3>
+            Resultado
+        </h3>
+        <p id="mostrarResultado"></p>
+    </section>
+
+
+    <script src="./promedio.js"></script>
+</body>
+
+</html>
